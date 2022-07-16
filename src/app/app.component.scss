@@ -1,0 +1,66 @@
+/* Application-wide Styles */
+h1 {
+  color: #369;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 250%;
+}
+h2, h3 {
+  color: #444;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: lighter;
+}
+body {
+  margin: 2em;
+}
+body, input[type="text"], button {
+  color: #333;
+  font-family: Cambria, Georgia, serif;
+}
+.page {
+  background-color: #000;
+  width: 100PC;
+}
+.header {
+  vertical-align: top;
+  flex-flow:row;
+  width: 100PC;
+  background-color: #eee;
+  height: 40px;
+  display: table-row;
+}
+.content {
+  display: table-row;
+  vertical-align: middle;
+  margin-top: 0;
+  background-color: #fff;
+  width: 100PC;
+}
+.content .left-section {
+  display: table-column;
+  float: left;
+  flex-flow: column;
+  margin-top: 1 em;
+  margin-left:  0.5em;
+  width: 10PC;
+  background-color: #00F;
+}
+.content .right-section {
+  display: table-column;
+  float: right;
+  flex-flow: column;
+  margin-top: 1 em;
+  margin-left:  0.5em;
+  width: 90PC;
+  background-color: #0F0
+}
+.footer {
+  display:block;
+  vertical-align: bottom;
+  height:100px;
+  background-color:#F00;
+  width: 100PC;
+}
+/* everywhere else */
+* {
+  font-family: Arial, Helvetica, sans-serif;
+}
